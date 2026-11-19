@@ -1,13 +1,14 @@
-// "19 November 2026 — One Day in Pictures" (v2): a program that writes
+// "19 November 2026 — One Day in Pictures" (v3): a program that writes
 // the front-page image of 19 November 2026's world news to /output/entry.png.
-// v2 revises the first entry: every story is one that happened, or was
-// first reported, on 19 November 2026, checked against the day's reporting.
-// The lead carries the Shenzhen summit's real outcome (a joint pledge that
-// nuclear war "must never be fought", no breakthrough on Ukraine or Iran);
-// the grid covers the ICJ's Myanmar judgment, GTA VI's release, Cyclone
-// Akvan and the third strike on the Crimean Bridge; the ticker adds the
-// Van Gogh record sale, Zelensky's "new Yalta" warning, COP31 and
-// Bangladesh. Type is larger throughout so the page reads at 300px across.
+// v3 revises the second entry after the rank watch found it had slipped:
+// every story was re-checked against the day's full reporting once the day
+// had ended everywhere. The lead now carries the summit's four-point
+// declaration (UN reform, more oil output, nuclear-risk talks); the grid
+// sharpens each panel with the day's final figures (ICJ 9-6 with
+// reparations, GTA VI's record-tying 99, 80,000+ evacuated ahead of Akvan,
+// Neptune missiles on the Crimean Bridge rail line); the ticker drops the
+// pre-summit "new Yalta" warning for what the day actually reported
+// (COP31 still without a deal, Bangladesh in turmoil).
 // The image itself is drawn in entry.png beside this file; this program
 // copies those exact bytes to the output directory, so both graded runs
 // produce byte-identical output. Run with:
