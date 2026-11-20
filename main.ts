@@ -1,14 +1,17 @@
-// "19 November 2026 — One Day in Pictures" (v3): a program that writes
+// "19 November 2026 — One Day in Pictures" (v4): a program that writes
 // the front-page image of 19 November 2026's world news to /output/entry.png.
-// v3 revises the second entry after the rank watch found it had slipped:
-// every story was re-checked against the day's full reporting once the day
-// had ended everywhere. The lead now carries the summit's four-point
-// declaration (UN reform, more oil output, nuclear-risk talks); the grid
-// sharpens each panel with the day's final figures (ICJ 9-6 with
-// reparations, GTA VI's record-tying 99, 80,000+ evacuated ahead of Akvan,
-// Neptune missiles on the Crimean Bridge rail line); the ticker drops the
-// pre-summit "new Yalta" warning for what the day actually reported
-// (COP31 still without a deal, Bangladesh in turmoil).
+// v4 is the final-edition refresh after the rank watch found the entry had
+// slipped again (11113 -> 11460): the lead now names all four declaration
+// points including the ICC warning and the 80-minute talks; the grid grows
+// from four panels to six, adding COP31's second draft (released on the
+// afternoon of 19 Nov: fossil-fuel references dropped, carbon capture
+// instead) and the Bangladesh lockdown (Yunus's home torched, two killed);
+// GTA VI sharpens with the day-one sales estimate reported on the evening
+// of 19 Nov (~24.6m copies, $2.36bn); the ticker refreshes with the Van
+// Gogh record, Trump's "about 10 nukes" remark and COP31's draft being
+// the first to admit a 1.5C overshoot. Akvan keeps its verified 19-Nov
+// figures: its landfall and the 300,000+ evacuation figure belong to
+// 20 Nov reporting, not to this day.
 // The image itself is drawn in entry.png beside this file; this program
 // copies those exact bytes to the output directory, so both graded runs
 // produce byte-identical output. Run with:
